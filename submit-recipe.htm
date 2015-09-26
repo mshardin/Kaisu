@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kaisu Recipe Page</title>
+
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,600,700,900' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+	<div id="submit-recipe--header"></div>
+
+	<div id="submit-recipe--main">
+		<h1>Submit a Recipe</h1>
+
+		<form id="submit-recipe-form" name="submit-recipe-form">
+			<label for="recipe-title">
+				Recipe Title:
+			</label>
+			<input type="text" name="recipe-title" placeholder="Apple pie">
+
+			<div id="add-image">
+				<label style="margin-bottom:30px;">Add Recipe Image</label>
+				<input type="file" name="recipe-image" id="recipe-image" accept="image/*">
+			</div>
+
+			<label for="recipe-summary">
+				Recipe Summary:
+			</label>
+			<textarea name="recipe-summary" placeholder="Granny's homemade southern style apple pie"></textarea>
+
+			<label for="recipe-quantity">
+				Quantity:
+			</label>
+			<input type="text" name="recipe-quantity" placeholder="8">
+
+			<label>
+				Preparation Time:
+			</label>
+			<input type="text" name="preparation-time-hrs" placeholder="1">hrs
+			<input type="text" name="preparation-time-mins" placeholder="10">mins
+			<select id="prep-method-select">
+				<option>Select Method</option>
+				<option>Baked / Broiled</option>
+				<option>Bread Machine</option>
+				<option>Deep Fry</option>
+				<option>Frozen</option>
+				<option>Grill</option>
+				<option>Marinated</option>
+				<option>Microwave</option>
+				<option>Pressure Cooker</option>
+				<option>Refrigerated</option>
+				<option>Slow Cooker</option>
+				<option>Stove Top</option>
+				<option>Other</option>
+			</select>
+
+			<label>
+				Cooking Time:
+			</label>
+			<input type="text" name="cooking-time-hrs" placeholder="1">hrs
+			<input type="text" name="cooking-time-mins" placeholder="30">mins
+			<select id="cook-method-select">
+				<option>Select Method</option>
+				<option>Baked / Broiled</option>
+				<option>Bread Machine</option>
+				<option>Deep Fry</option>
+				<option>Frozen</option>
+				<option>Grill</option>
+				<option>Marinated</option>
+				<option>Microwave</option>
+				<option>Pressure Cooker</option>
+				<option>Refrigerated</option>
+				<option>Slow Cooker</option>
+				<option>Stove Top</option>
+				<option>Other</option>
+			</select>
+
+			<label for="recipe-ingredients">
+				Ingredients (Please comma seperate list of ingredients):
+			</label>
+			<textarea name="recipe-ingredients" placeholder="Add your ingredients..."></textarea>
+
+			<label for="recipe-directions">
+				Directions:
+			</label>
+			<textarea name="recipe-directions" placeholder="What are the steps to complete this recipe"></textarea>
+
+			<br>
+
+			<select id="course-select">
+				<option>Select Course</option>
+				<option>Beverages</option>
+				<option>Appetizers</option>
+				<option>Breads</option>
+				<option>Breakfast / Brunch</option>
+				<option>Condiments</option>
+				<option>Desserts</option>
+				<option>Main Dishes</option>
+				<option>Salads</option>
+				<option>Sandwiches</option>
+				<option>Side Dishes</option>
+				<option>Other</option>
+			</select> 
+
+			<select id="type-select">
+				<option>Select Type</option>
+				<option>Asian</option>
+				<option>Cajun / Creole</option>
+				<option>Comfort Foods</option>
+				<option>German</option>
+				<option>Asian</option>
+				<option>Greek / Mediterranean</option>
+				<option>Italian</option>
+				<option>Jewish</option>
+				<option>Mexican / Southwest</option>
+				<option>Other</option>
+			</select>
+
+			<select id="occassion-select">
+				<option>Select if relevant</option>
+				<option>Birthdays</option>
+				<option>More Celebrations</option>
+				<option>Food Crafts</option>
+				<option>Gifts</option>
+				<option>Kids</option>
+				<option>Potluck / Crowd</option>
+				<option>Theme Parties</option>
+				<option>Weddings</option>
+				<option>None</option>
+			</select>
+
+			<select id="holiday-select">
+				<option>Select if relevant</option>
+				<option>Christman</option>
+				<option>Easter</option>
+				<option>Eid</option>
+				<option>Halloween</option>
+				<option>Hanukkah</option>
+				<option>Birthdays</option>
+				<option>New Year's</option>
+				<option>Patriotic</option>
+				<option>St. Patrick's</option>
+				<option>Thanksgiving</option>
+				<option>Valentine's Day</option>
+				<option>None</option>
+			</select>
+
+
+			<button id="submit-button">Submit Recipe</button>
+		</form>
+	</div>
+
+</body>
+</html>
